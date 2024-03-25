@@ -1,0 +1,336 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\bll\\dtomodels\\orderpositionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|solutionrelative:bll\\dtomodels\\orderpositionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\model\\orderposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|solutionrelative:model\\orderposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\bll\\dtomodels\\orderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|solutionrelative:bll\\dtomodels\\orderrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\bll\\dtomodels\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|solutionrelative:bll\\dtomodels\\orderresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\bll\\dtomodels\\basketpositionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|solutionrelative:bll\\dtomodels\\basketpositionrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|solutionrelative:model\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\bll\\dtomodels\\basketpositionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2906EF91-E7D9-44F3-9545-782003DBD5EF}|BLL\\BLL.csproj|solutionrelative:bll\\dtomodels\\basketpositionresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\model\\basketposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|solutionrelative:model\\basketposition.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40DE917E-C910-44AD-8EC8-9B1AC9DED432}|NowakowskiLab2\\NowakowskiLab2.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\nowakowskilab2\\nowakowskilab2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{40DE917E-C910-44AD-8EC8-9B1AC9DED432}|NowakowskiLab2\\NowakowskiLab2.csproj|solutionrelative:nowakowskilab2\\nowakowskilab2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40DE917E-C910-44AD-8EC8-9B1AC9DED432}|NowakowskiLab2\\NowakowskiLab2.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\nowakowskilab2\\nowakowskilab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{40DE917E-C910-44AD-8EC8-9B1AC9DED432}|NowakowskiLab2\\NowakowskiLab2.csproj|solutionrelative:nowakowskilab2\\nowakowskilab2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\model\\model.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|solutionrelative:model\\model.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|solutionrelative:model\\model.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55E6588-223E-4EFF-A5AA-61B6081910DB}|DAL\\DAL.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\dal\\dal.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{C55E6588-223E-4EFF-A5AA-61B6081910DB}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55E6588-223E-4EFF-A5AA-61B6081910DB}|DAL\\DAL.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\dal\\webshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55E6588-223E-4EFF-A5AA-61B6081910DB}|DAL\\DAL.csproj|solutionrelative:dal\\webshopcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\model\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|solutionrelative:model\\usergroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|solutionrelative:model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\model\\productgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|solutionrelative:model\\productgroup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|c:\\users\\student rm4-3073 06.it\\desktop\\pblab1-main\\nowakowskilab2\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E9F050F9-CF3D-4412-B4DB-6A4F6E57BA7E}|Model\\Model.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderPositionResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\OrderPositionResponseDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOModels\\OrderPositionResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\OrderPositionResponseDTO.cs",
+              "RelativeToolTip": "BLL\\DTOModels\\OrderPositionResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:24:26.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\OrderRequestDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOModels\\OrderRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\OrderRequestDTO.cs",
+              "RelativeToolTip": "BLL\\DTOModels\\OrderRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:22:55.34Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\OrderResponseDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOModels\\OrderResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\OrderResponseDTO.cs",
+              "RelativeToolTip": "BLL\\DTOModels\\OrderResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:21:20.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BasketPositionRequestDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\BasketPositionRequestDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOModels\\BasketPositionRequestDTO.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\BasketPositionRequestDTO.cs",
+              "RelativeToolTip": "BLL\\DTOModels\\BasketPositionRequestDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:20:26.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BasketPositionResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\BasketPositionResponseDTO.cs",
+              "RelativeDocumentMoniker": "BLL\\DTOModels\\BasketPositionResponseDTO.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\DTOModels\\BasketPositionResponseDTO.cs",
+              "RelativeToolTip": "BLL\\DTOModels\\BasketPositionResponseDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:17:53.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BLL",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\BLL.csproj",
+              "RelativeDocumentMoniker": "BLL\\BLL.csproj",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\BLL\\BLL.csproj",
+              "RelativeToolTip": "BLL\\BLL.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-13T15:16:41.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NowakowskiLab2",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\NowakowskiLab2\\NowakowskiLab2.csproj",
+              "RelativeDocumentMoniker": "NowakowskiLab2\\NowakowskiLab2.csproj",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\NowakowskiLab2\\NowakowskiLab2.csproj",
+              "RelativeToolTip": "NowakowskiLab2\\NowakowskiLab2.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-13T15:10:18.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Model",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\Model.csproj",
+              "RelativeDocumentMoniker": "Model\\Model.csproj",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\Model.csproj",
+              "RelativeToolTip": "Model\\Model.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-13T15:09:57.714Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Model",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\Model.csproj",
+              "RelativeDocumentMoniker": "Model\\Model.csproj",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\Model.csproj",
+              "RelativeToolTip": "Model\\Model.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-13T15:10:02.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderPosition.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\OrderPosition.cs",
+              "RelativeDocumentMoniker": "Model\\OrderPosition.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\OrderPosition.cs",
+              "RelativeToolTip": "Model\\OrderPosition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:08:13.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "NowakowskiLab2",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\NowakowskiLab2\\NowakowskiLab2.csproj",
+              "RelativeDocumentMoniker": "NowakowskiLab2\\NowakowskiLab2.csproj",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\NowakowskiLab2\\NowakowskiLab2.csproj",
+              "RelativeToolTip": "NowakowskiLab2\\NowakowskiLab2.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-13T15:10:11.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DAL",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "DAL\\DAL.csproj",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\DAL\\DAL.csproj",
+              "RelativeToolTip": "DAL\\DAL.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-13T15:09:39.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WebshopContext.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\DAL\\WebshopContext.cs",
+              "RelativeDocumentMoniker": "DAL\\WebshopContext.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\DAL\\WebshopContext.cs",
+              "RelativeToolTip": "DAL\\WebshopContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:08:13.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\Order.cs",
+              "RelativeDocumentMoniker": "Model\\Order.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\Order.cs",
+              "RelativeToolTip": "Model\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:08:13.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BasketPosition.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\BasketPosition.cs",
+              "RelativeDocumentMoniker": "Model\\BasketPosition.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\BasketPosition.cs",
+              "RelativeToolTip": "Model\\BasketPosition.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:08:13.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserGroup.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\UserGroup.cs",
+              "RelativeDocumentMoniker": "Model\\UserGroup.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\UserGroup.cs",
+              "RelativeToolTip": "Model\\UserGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:08:13.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\User.cs",
+              "RelativeDocumentMoniker": "Model\\User.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\User.cs",
+              "RelativeToolTip": "Model\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:08:13.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductGroup.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\ProductGroup.cs",
+              "RelativeDocumentMoniker": "Model\\ProductGroup.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\ProductGroup.cs",
+              "RelativeToolTip": "Model\\ProductGroup.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:08:13.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab1-main\\NowakowskiLab2\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T15:08:13.901Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
