@@ -1,0 +1,22 @@
+CREATE PROCEDURE [dbo].[ProcedureRemoveProductFromBasket]
+    @ProductID INT,
+    @UserID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Sprawdzamy, czy produkt istnieje w koszyku danego użytkownika
+    IF EXISTS (SELECT 1 FROM BasketPosition WHERE ProductID = @ProductID AND UserID = @UserID)
+    BEGIN
+        -- Usuwamy produkt z koszyka
+        DELETE FROM BasketPosition
+        WHERE ProductID = @ProductID AND UserID = @UserID
+        
+        PRINT 'Produkt został usunięty z koszyka.'
+    END
+    ELSE
+    BEGIN
+        -- Jeśli produkt nie istnieje w koszyku danego użytkownika, wyświetlamy komunikat
+        PRINT 'Nie można usunąć produktu z koszyka. Produkt nie istnieje w koszyku użytkownika.'
+    END
+END;

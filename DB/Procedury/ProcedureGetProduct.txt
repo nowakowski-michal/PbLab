@@ -1,0 +1,32 @@
+CREATE PROCEDURE [dbo].[ProcedureGetProduct]
+@SortOption VARCHAR(50) = 'Name',
+    @SortDirection VARCHAR(4) = 'ASC', -- Dodajemy parametr dla kierunku sortowania
+    @FilterByName NVARCHAR(100) = NULL,
+    @FilterByGroupName NVARCHAR(100) = NULL,
+    @FilterByGroupID INT = NULL,
+    @IncludeInactive BIT = 0
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    DECLARE @SQLQuery NVARCHAR(MAX)
+
+    SET @SQLQuery = '
+        SELECT P.ID, P.Name, P.Price, PG.Name AS GroupName
+        FROM Product AS P
+        LEFT JOIN ProductGroup AS PG ON P.GroupID = PG.ID
+        WHERE (@IncludeInactive = 1 OR P.IsActive = 1)
+            AND (@FilterByName IS NULL OR P.Name LIKE ''%'' + @FilterByName + ''%'')
+            AND (@FilterByGroupName IS NULL OR PG.Name LIKE ''%'' + @FilterByGroupName + ''%'')
+            AND (@FilterByGroupID IS NULL OR P.GroupID = @FilterByGroupID)
+        ORDER BY '
+
+    IF @SortOption = 'Name'
+        SET @SQLQuery = @SQLQuery + 'P.Name ' + @SortDirection -- Dodajemy kierunek sortowania
+    ELSE IF @SortOption = 'Price'
+        SET @SQLQuery = @SQLQuery + 'P.Price ' + @SortDirection -- Dodajemy kierunek sortowania
+    ELSE IF @SortOption = 'GroupName'
+        SET @SQLQuery = @SQLQuery + 'PG.Name ' + @SortDirection -- Dodajemy kierunek sortowania
+
+    EXEC sp_executesql @SQLQuery
+END;

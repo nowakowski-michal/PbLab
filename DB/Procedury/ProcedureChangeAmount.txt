@@ -1,0 +1,24 @@
+CREATE PROCEDURE [dbo].[ProcedureChangeAmount]
+@ProductID INT,
+    @UserID INT,
+    @NewAmount INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Sprawdzamy, czy produkt istnieje w koszyku danego użytkownika
+    IF EXISTS (SELECT 1 FROM BasketPosition WHERE ProductID = @ProductID AND UserID = @UserID)
+    BEGIN
+        -- Aktualizujemy ilość produktu w koszyku
+        UPDATE BasketPosition
+        SET Amount = @NewAmount
+        WHERE ProductID = @ProductID AND UserID = @UserID
+        
+        PRINT 'Ilość produktu w koszyku została zaktualizowana.'
+    END
+    ELSE
+    BEGIN
+        -- Jeśli produkt nie istnieje w koszyku danego użytkownika, wyświetlamy komunikat
+        PRINT 'Nie można zmienić ilości produktu w koszyku. Produkt nie istnieje w koszyku użytkownika.'
+    END
+END;

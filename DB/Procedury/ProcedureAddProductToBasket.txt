@@ -1,0 +1,22 @@
+CREATE PROCEDURE [dbo].[ProcedureAddProductToBasket]
+    @ProductID INT,
+    @UserID INT
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Sprawdzamy, czy produkt istnieje i czy jest aktywny
+    IF EXISTS (SELECT 1 FROM Product WHERE ID = @ProductID AND IsActive = 1)
+    BEGIN
+        -- Dodajemy nowy produkt do koszyka
+        INSERT INTO BasketPosition (ProductID, Amount, Price, UserID)
+        VALUES (@ProductID, 1, (SELECT Price FROM Product WHERE ID = @ProductID), @UserID)
+        
+        PRINT 'Produkt został dodany do koszyka.'
+    END
+    ELSE
+    BEGIN
+        -- Jeśli produkt nie istnieje lub nie jest aktywny, wyświetlamy komunikat
+        PRINT 'Nie można dodać produktu do koszyka. Produkt nie istnieje lub nie jest aktywny.'
+    END
+END;

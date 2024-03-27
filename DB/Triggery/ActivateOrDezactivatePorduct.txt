@@ -1,0 +1,31 @@
+CREATE TRIGGER [ActivateOrDezactivate]
+	ON [dbo].[Products]
+AFTER UPDATE
+AS
+BEGIN
+    SET NOCOUNT ON;
+
+    -- Dezaktywacja produktu
+    IF EXISTS (SELECT * FROM inserted i JOIN deleted d ON i.ID = d.ID WHERE i.IsActive = 0 AND d.IsActive = 1)
+    BEGIN
+        UPDATE p
+        SET p.IsActive = 0
+        FROM Product p
+        INNER JOIN deleted d ON p.ID = d.ID
+        WHERE d.IsActive = 1
+
+        -- Dodatkowe operacje dla dezaktywacji produktu, jeśli są wymagane
+    END
+
+    -- Aktywacja produktu
+    ELSE IF EXISTS (SELECT * FROM inserted i JOIN deleted d ON i.ID = d.ID WHERE i.IsActive = 1 AND d.IsActive = 0)
+    BEGIN
+        UPDATE p
+        SET p.IsActive = 1
+        FROM Product p
+        INNER JOIN deleted d ON p.ID = d.ID
+        WHERE d.IsActive = 0
+
+        -- Dodatkowe operacje dla aktywacji produktu, jeśli są wymagane
+    END
+END;
