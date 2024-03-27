@@ -1,39 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\NowakowskiLab2\\NowakowskiLab2.csproj": {}
+    "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\NowakowskiLab2\\NowakowskiLab2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj": {
+    "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\minx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\obj\\",
+        "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\Student RM4-3073 06.IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\vs2022\\sdk\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\minx\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Student RM4-3073 06.IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj"
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\Model\\Model.csproj"
               }
             }
           }
@@ -42,11 +38,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -63,43 +64,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL_EF\\BLL_EF.csproj": {
+    "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_DB\\BLL_DB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL_EF\\BLL_EF.csproj",
-        "projectName": "BLL_EF",
-        "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL_EF\\BLL_EF.csproj",
-        "packagesPath": "C:\\Users\\minx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL_EF\\obj\\",
+        "projectUniqueName": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_DB\\BLL_DB.csproj",
+        "projectName": "BLL_DB",
+        "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_DB\\BLL_DB.csproj",
+        "packagesPath": "C:\\Users\\Student RM4-3073 06.IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_DB\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\vs2022\\sdk\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\minx\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Student RM4-3073 06.IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj"
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\DAL\\DAL.csproj"
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\DAL.csproj"
               }
             }
           }
@@ -108,11 +105,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -129,40 +137,39 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\DAL\\DAL.csproj": {
+    "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_EF\\BLL_EF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\DAL\\DAL.csproj",
-        "projectName": "DAL",
-        "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\minx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\DAL\\obj\\",
+        "projectUniqueName": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_EF\\BLL_EF.csproj",
+        "projectName": "BLL_EF",
+        "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_EF\\BLL_EF.csproj",
+        "packagesPath": "C:\\Users\\Student RM4-3073 06.IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_EF\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\vs2022\\sdk\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\minx\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Student RM4-3073 06.IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj"
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\DAL.csproj"
               }
             }
           }
@@ -171,11 +178,80 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\Student RM4-3073 06.IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Student RM4-3073 06.IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\Model\\Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -214,37 +290,33 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj": {
+    "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj",
-        "packagesPath": "C:\\Users\\minx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\obj\\",
+        "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\Model\\Model.csproj",
+        "packagesPath": "C:\\Users\\Student RM4-3073 06.IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\Model\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\vs2022\\sdk\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\minx\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Student RM4-3073 06.IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -252,11 +324,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -273,46 +350,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\NowakowskiLab2\\NowakowskiLab2.csproj": {
+    "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\NowakowskiLab2\\NowakowskiLab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\NowakowskiLab2\\NowakowskiLab2.csproj",
+        "projectUniqueName": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\NowakowskiLab2\\NowakowskiLab2.csproj",
         "projectName": "NowakowskiLab2",
-        "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\NowakowskiLab2\\NowakowskiLab2.csproj",
-        "packagesPath": "C:\\Users\\minx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\NowakowskiLab2\\obj\\",
+        "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\NowakowskiLab2\\NowakowskiLab2.csproj",
+        "packagesPath": "C:\\Users\\Student RM4-3073 06.IT\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\NowakowskiLab2\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "F:\\vs2022\\sdk\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\minx\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Student RM4-3073 06.IT\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj": {
-                "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj"
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL\\BLL.csproj"
               },
-              "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL_EF\\BLL_EF.csproj": {
-                "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL_EF\\BLL_EF.csproj"
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_DB\\BLL_DB.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_DB\\BLL_DB.csproj"
               },
-              "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\DAL\\DAL.csproj": {
-                "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\DAL\\DAL.csproj"
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_EF\\BLL_EF.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\BLL_EF\\BLL_EF.csproj"
+              },
+              "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\Student RM4-3073 06.IT\\Desktop\\PbLab-main\\DAL\\DAL.csproj"
               }
             }
           }
@@ -321,11 +397,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -379,7 +460,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
