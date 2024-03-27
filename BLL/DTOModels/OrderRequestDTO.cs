@@ -8,6 +8,9 @@ namespace BLL.DTOModels
 {
     public class OrderRequestDTO
     {
-        public List<BasketItemRequestDTO> Items { get; init; }
+        public int? UserID { get; init; }
+        public DateTime Date { get; init; }
+        public List<OrderPositionRequestDTO>? Positions { get; init; }
+        public bool isPayed { get; set; }
     }
 }

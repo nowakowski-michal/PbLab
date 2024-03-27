@@ -8,7 +8,9 @@ namespace BLL.DTOModels
 {
     public class BasketItemRequestDTO
     {
-        public int ProductID { get; init; }
+        public int? ProductID { get; set; }
+        public int? UserID { get; init; }
         public int Amount { get; init; }
+        public double Price { get; init; }
     }
 }

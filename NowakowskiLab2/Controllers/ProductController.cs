@@ -22,22 +22,68 @@ namespace NowakowskiLab2.Controllers
             return _productService.GetProducts(filter);
         }
 
-        [HttpPost]
-        public ProductResponseDTO AddProduct([FromBody] ProductCreateRequestDTO productDTO)
+        [HttpGet("{id}")]
+        public IActionResult GetProductById(int id)
         {
-            return _productService.AddProduct(productDTO);
+            var product = _productService.GetProductById(id);
+            if (product == null)
+            {
+                return NotFound();
+            }
+            return Ok(product);
+        }
+
+        [HttpPost]
+        public IActionResult AddProduct([FromBody] ProductRequestDTO productDTO)
+        {
+            try
+            {
+                var addedProduct = _productService.AddProduct(productDTO);
+                return CreatedAtAction(nameof(GetProductById), new
+                {
+                    id = addedProduct.ID
+                }, addedProduct);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(ex.Message);
+            }
         }
 
         [HttpPut("{id}/Deactivate")]
-        public void DeactivateProduct(int id)
+        public IActionResult DeactivateProduct(int id)
         {
-            _productService.DeactivateProduct(id);
+            try
+            {
+                _productService.DeactivateProduct(id);
+                return NoContent();
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return Conflict(ex.Message);
+            }
         }
 
         [HttpPut("{id}/Activate")]
-        public void ActivateProduct(int id)
+        public IActionResult ActivateProduct(int id)
         {
-            _productService.ActivateProduct(id);
+            try
+            {
+                _productService.ActivateProduct(id);
+                return NoContent();
+            }
+            catch (ArgumentException ex)
+            {
+                return NotFound(ex.Message);
+            }
         }
 
     }

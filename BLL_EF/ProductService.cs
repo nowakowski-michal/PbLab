@@ -1,6 +1,7 @@
 ﻿using BLL.DTOModels;
 using BLL.ServiceInterfaces;
 using DAL;
+using Microsoft.EntityFrameworkCore;
 using Model;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace BLL_EF
 {
-    public class ProductService: IProductService
+    public class ProductService : IProductService
     {
         private readonly WebshopContext _dbContext;
 
@@ -35,33 +36,48 @@ namespace BLL_EF
             if (filter.GroupID.HasValue)
                 productsQuery = productsQuery.Where(p => p.GroupID == filter.GroupID.Value);
 
-            var products = productsQuery.Select(p => new ProductResponseDTO(p.ID, p.Name, p.Price, p.Group != null ? GetFullGroupName(p.Group) : "")).ToList();
+            // Sorting
+            productsQuery = SortProducts(productsQuery, filter);
+
+            var products = productsQuery.Select(p => new ProductResponseDTO(p.ID, p.Name, p.Price, p.Image,p.IsActive,p.GroupID, p.Group != null ? GetFullGroupName(p.Group) : "")).ToList();
 
             return products;
         }
+        public ProductResponseDTO GetProductById(int id)
+        {
+            var product = _dbContext.Products.FirstOrDefault(p => p.ID == id);
+            if (product == null)
+            {
+                return null;
+            }
 
-        public ProductResponseDTO AddProduct(ProductCreateRequestDTO productDTO)
+            string groupName = product.Group != null ? GetFullGroupName(product.Group) : "";
+
+            return new ProductResponseDTO(product.ID, product.Name, product.Price, product.Image, product.IsActive,product.GroupID ,groupName);
+        }
+
+        public ProductResponseDTO AddProduct(ProductRequestDTO productDTO)
         {
             if (productDTO.Price <= 0)
                 throw new ArgumentException("Price must be greater than zero.");
-            
+
             var productGroup = _dbContext.ProductGroups.FirstOrDefault(g => g.ID == productDTO.GroupID);
             if (productGroup == null)
                 throw new ArgumentException("Invalid product group ID.");
-            
+
             var newProduct = new Product
             {
                 Name = productDTO.Name,
                 Price = productDTO.Price,
                 GroupID = productDTO.GroupID,
-                Image = productDTO.Name,
-                IsActive = true // Nowy produkt jest domyślnie aktywny
+                Image = productDTO.Image,
+                IsActive = true 
             };
 
             _dbContext.Products.Add(newProduct);
             _dbContext.SaveChanges();
 
-            return new ProductResponseDTO(newProduct.ID, newProduct.Name, newProduct.Price, GetFullGroupName(productGroup));
+            return new ProductResponseDTO(newProduct.ID, newProduct.Name, newProduct.Price, newProduct.Image,newProduct.IsActive,newProduct.GroupID, GetFullGroupName(productGroup));
         }
 
         public void DeactivateProduct(int productID)
@@ -98,19 +114,18 @@ namespace BLL_EF
             return parentGroupName != "" ? $"{parentGroupName} / {group.Name}" : group.Name;
         }
 
-        public ProductResponseDTO GetProductById(int id) // Implementacja nowej metody
+        // Helper method to sort products
+        private IQueryable<Product> SortProducts(IQueryable<Product> query, ProductFilterRequestDTO filter)
         {
-            var product = GetProductById(id);
-            if (product == null)
-            {
-                return null;
-            }
-
-            string groupName = product.GroupName != null ? product.GroupName : "";
-
-            var productDTO = new ProductResponseDTO(product.ID, product.Name, product.Price, groupName);
-
-            return productDTO;
+            if (filter.SortBy == "name")
+                return filter.SortAsc ? query.OrderByDescending(p => p.Name) : query.OrderBy(p => p.Name);
+            else if (filter.SortBy == "price")
+                return filter.SortAsc ? query.OrderByDescending(p => p.Price) : query.OrderBy(p => p.Price);
+            else if (filter.SortBy == "group")
+                return filter.SortAsc ? query.OrderByDescending(p => p.Group.Name) : query.OrderBy(p => p.Group.Name);
+            else
+                return query; // Default sorting
         }
     }
+
 }

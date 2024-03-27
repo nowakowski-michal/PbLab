@@ -8,13 +8,13 @@ namespace BLL.DTOModels
 {
     public class OrderResponseDTO
     {
-        public int OrderID { get; init; }
+        public int ID { get; init; }
+        public int? UserID { get; init; }
+        public DateTime Date { get; init; }
+        public List<OrderPositionResponseDTO>? Positions { get; init; }
+        public bool isPayed { get; init; }
         public double TotalPrice { get; init; }
 
-        public OrderResponseDTO(int orderID, double totalPrice)
-        {
-            OrderID = orderID;
-            TotalPrice = totalPrice;
-        }
+
     }
 }

@@ -14,7 +14,7 @@ namespace NowakowskiLab2
 
             builder.Services.AddControllers();
             builder.Services.AddDbContext<WebshopContext>();
-            builder.Services.AddScoped<ICartService, CartService>();
+            builder.Services.AddScoped<IBasketService, BasketService>();
             builder.Services.AddScoped<IProductService, ProductService>();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

@@ -12,5 +12,7 @@ namespace BLL.DTOModels
         public string? GroupName { get; init; } = null;
         public int? GroupID { get; init; } = null;
         public bool IncludeInactive { get; init; } = false;
+        public string SortBy { get; init; } = null;
+        public bool SortAsc { get; init; } = true; 
     }
 }
