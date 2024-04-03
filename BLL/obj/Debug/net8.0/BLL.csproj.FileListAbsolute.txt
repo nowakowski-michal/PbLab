@@ -1,0 +1,30 @@
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\bin\Debug\net8.0\BLL.deps.json
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\bin\Debug\net8.0\BLL.dll
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\bin\Debug\net8.0\BLL.pdb
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\bin\Debug\net8.0\Model.dll
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\bin\Debug\net8.0\Model.pdb
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.csproj.Up2Date
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.dll
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\refint\BLL.dll
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.pdb
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\BLL\obj\Debug\net8.0\ref\BLL.dll
+C:\Users\minx\Desktop\PbLab-main\BLL\bin\Debug\net8.0\BLL.deps.json
+C:\Users\minx\Desktop\PbLab-main\BLL\bin\Debug\net8.0\BLL.dll
+C:\Users\minx\Desktop\PbLab-main\BLL\bin\Debug\net8.0\BLL.pdb
+C:\Users\minx\Desktop\PbLab-main\BLL\bin\Debug\net8.0\Model.dll
+C:\Users\minx\Desktop\PbLab-main\BLL\bin\Debug\net8.0\Model.pdb
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.csproj.AssemblyReference.cache
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.AssemblyInfoInputs.cache
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.AssemblyInfo.cs
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.csproj.CoreCompileInputs.cache
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.csproj.CopyComplete
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.dll
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\refint\BLL.dll
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\BLL.pdb
+C:\Users\minx\Desktop\PbLab-main\BLL\obj\Debug\net8.0\ref\BLL.dll

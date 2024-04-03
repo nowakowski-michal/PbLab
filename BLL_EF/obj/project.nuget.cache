@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kL3Tygunf3wTPbUK6DsIyjagHdWO5+nFH7PG4Tdk2HZfOJcf6T/QE6+C7vVsTGr5V0ElqcwafW79Im21j1bLiQ==",
+  "dgSpecHash": "MFjqr5EysfU+LiCco1Nb6yxlFX5WKy1W+J3LCnpf9948LqDM2h+pTlZCn/LJJOwG5LjihM7Tht/nzYmaDyCY1w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL_EF\\BLL_EF.csproj",
+  "projectFilePath": "C:\\Users\\minx\\Desktop\\PbLab-main\\BLL_EF\\BLL_EF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minx\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\minx\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

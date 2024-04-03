@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SEH/wMZYrywj+zl5QZ4WJtYmBOWc/qQ12icsRfMiLOsbpv4/JmOZn9OvwK+G+sIyiLUQKLCLUSVr6gk1rkqJaA==",
+  "dgSpecHash": "6Nx4GztB8rOzSOvXf4qx5v3ueG0Q9HrbM8tiGdKaP7/JvgC7wPyDBCux3qTTyInBhoPKdXDytXlC9bWjTn8i2Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\DAL\\DAL.csproj",
+  "projectFilePath": "C:\\Users\\minx\\Desktop\\PbLab-main\\DAL\\DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\minx\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\minx\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

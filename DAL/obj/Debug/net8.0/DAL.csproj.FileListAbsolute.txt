@@ -15,3 +15,37 @@ C:\Users\Student RM4-3073 06.IT\Desktop\PbLab1-main\NowakowskiLab2\DAL\obj\Debug
 C:\Users\Student RM4-3073 06.IT\Desktop\PbLab1-main\NowakowskiLab2\DAL\obj\Debug\net8.0\DAL.pdb
 C:\Users\Student RM4-3073 06.IT\Desktop\PbLab1-main\NowakowskiLab2\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
 C:\Users\Student RM4-3073 06.IT\Desktop\PbLab1-main\NowakowskiLab2\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\bin\Debug\net8.0\Model.dll
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\bin\Debug\net8.0\Model.pdb
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.csproj.Up2Date
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\Student RM4-3073 06.IT\Desktop\PbLab-main\DAL\obj\Debug\net8.0\ref\DAL.dll
+C:\Users\minx\Desktop\PbLab-main\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\minx\Desktop\PbLab-main\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+C:\Users\minx\Desktop\PbLab-main\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\minx\Desktop\PbLab-main\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\minx\Desktop\PbLab-main\DAL\bin\Debug\net8.0\Model.dll
+C:\Users\minx\Desktop\PbLab-main\DAL\bin\Debug\net8.0\Model.pdb
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.csproj.CopyComplete
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\minx\Desktop\PbLab-main\DAL\obj\Debug\net8.0\ref\DAL.dll

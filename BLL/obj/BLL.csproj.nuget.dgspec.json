@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj": {}
+    "C:\\Users\\minx\\Desktop\\PbLab-main\\BLL\\BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj": {
+    "C:\\Users\\minx\\Desktop\\PbLab-main\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj",
+        "projectUniqueName": "C:\\Users\\minx\\Desktop\\PbLab-main\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\BLL.csproj",
+        "projectPath": "C:\\Users\\minx\\Desktop\\PbLab-main\\BLL\\BLL.csproj",
         "packagesPath": "C:\\Users\\minx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\BLL\\obj\\",
+        "outputPath": "C:\\Users\\minx\\Desktop\\PbLab-main\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\vs2022\\sdk\\NuGetPackages"
@@ -22,18 +22,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj": {
-                "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj"
+              "C:\\Users\\minx\\Desktop\\PbLab-main\\Model\\Model.csproj": {
+                "projectPath": "C:\\Users\\minx\\Desktop\\PbLab-main\\Model\\Model.csproj"
               }
             }
           }
@@ -45,8 +45,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -63,18 +63,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj": {
+    "C:\\Users\\minx\\Desktop\\PbLab-main\\Model\\Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj",
+        "projectUniqueName": "C:\\Users\\minx\\Desktop\\PbLab-main\\Model\\Model.csproj",
         "projectName": "Model",
-        "projectPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\Model.csproj",
+        "projectPath": "C:\\Users\\minx\\Desktop\\PbLab-main\\Model\\Model.csproj",
         "packagesPath": "C:\\Users\\minx\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\minx\\Desktop\\projekt_przerobka\\NowakowskiLab2\\Model\\obj\\",
+        "outputPath": "C:\\Users\\minx\\Desktop\\PbLab-main\\Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\vs2022\\sdk\\NuGetPackages"
@@ -85,15 +85,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -104,8 +104,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -122,7 +122,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
